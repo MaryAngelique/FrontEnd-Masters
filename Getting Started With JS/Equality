@@ -21,8 +21,8 @@ var wokrshop1 = {topic: null};
 var wokrshop2 = {};
 
 if (
-    wokrshop1.topic == null || wokrshop1.topic == undefined &&
-    wokrshop2 == null || wokrshop1.topic == undefined 
+    (wokrshop1.topic == null || wokrshop1.topic == undefined) &&
+    (wokrshop2 == null || wokrshop1.topic == undefined) 
 ) {
     // ...
 }
